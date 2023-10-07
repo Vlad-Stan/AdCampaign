@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Company</key>
+	<string>Linkedin</string>
+	<key>Location</key>
+	<string>Facebook, Linkedin, Twitter, Instagram, Google AdWords</string>
+	<key>Age</key>
+	<string>Facebook, Linkedin, Twitter, Instagram, Google AdWords</string>
+	<key>Sex</key>
+	<string>Facebook, Linkedin, Twitter, Instagram, Google AdWords</string>
+	<key>Spoken languages</key>
+	<string>Facebook, Twitter, Instagram</string>
+	<key>Events</key>
+	<string>Facebook, Twitter</string>
+	<key>Industry</key>
+	<string>Linkedin, SEO</string>
+	<key>Expertise</key>
+	<string>Linkedin</string>
+	<key>Education</key>
+	<string>Linkedin</string>
+	<key>Technology</key>
+	<string>Twitter</string>
+	<key>Interests</key>
+	<string>Instagram</string>
+	<key>Device</key>
+	<string>Google AdWords</string>
+	<key>Keywords</key>
+	<string>Google AdWords, SEO</string>
+	<key>Similar products / services</key>
+	<string>Google AdWords</string>
+	<key>Hyperlinks</key>
+	<string>SEO</string>
+</dict>
+</plist>

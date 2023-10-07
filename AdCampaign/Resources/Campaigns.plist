@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Facebook</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Campaign setup</string>
+			<key>2</key>
+			<string>Admin and optimising</string>
+			<key>3</key>
+			<string>Email support</string>
+			<key>4</key>
+			<string>Monthly reports</string>
+			<key>5</key>
+			<string>Install</string>
+			<key>6</key>
+			<string>Conversion monitoring</string>
+			<key>7</key>
+			<string>Landing page</string>
+			<key>8</key>
+			<string>Phone support</string>
+			<key>9</key>
+			<string>Remarketing</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>75</key>
+			<dict>
+				<key>Listings</key>
+				<string>1 pagina Facebook</string>
+				<key>Optimizations</key>
+				<string>8 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+				</array>
+			</dict>
+			<key>140</key>
+			<dict>
+				<key>Listings</key>
+				<string>3-8 listings</string>
+				<key>Optimizations</key>
+				<string>12 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+				</array>
+			</dict>
+			<key>200</key>
+			<dict>
+				<key>Listings</key>
+				<string>8-15 listings</string>
+				<key>Optimizations</key>
+				<string>20 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+				</array>
+			</dict>
+			<key>100</key>
+			<dict>
+				<key>Listings</key>
+				<string>1-3 listings</string>
+				<key>Optimizations</key>
+				<string>8 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>SEO</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Scope setup</string>
+			<key>2</key>
+			<string>Market research</string>
+			<key>3</key>
+			<string>Keywords research</string>
+			<key>4</key>
+			<string>Content analysis</string>
+			<key>5</key>
+			<string>Hyperlinks analysis</string>
+			<key>6</key>
+			<string>Local SEO</string>
+			<key>7</key>
+			<string>Audit SEO</string>
+			<key>8</key>
+			<string>Website optimisation</string>
+			<key>9</key>
+			<string>Backlink setup</string>
+			<key>10</key>
+			<string>Campaign analysis</string>
+			<key>11</key>
+			<string>Email support</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>270</key>
+			<dict>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>8</string>
+					<string>9</string>
+					<string>10</string>
+					<string>11</string>
+				</array>
+			</dict>
+			<key>329</key>
+			<dict>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+					<string>8</string>
+					<string>9</string>
+					<string>10</string>
+					<string>11</string>
+				</array>
+			</dict>
+			<key>180</key>
+			<dict>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>9</string>
+					<string>11</string>
+				</array>
+			</dict>
+			<key>110</key>
+			<dict>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>6</string>
+					<string>11</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+</dict>
+</plist>
