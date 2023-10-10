@@ -39,6 +39,10 @@ class TargetingSpecificViewModel {
         return self.dataSource
     }
     
+    func selectedOptions() -> [TargetingSpecifics]? {
+        return self.selectedSpecifics
+    }
+    
     func udpateSelectionWith(target: TargetingSpecifics) {
         if self.selectedSpecifics == nil {
             self.selectedSpecifics = []
@@ -48,5 +52,9 @@ class TargetingSpecificViewModel {
         } else {
             self.selectedSpecifics?.append(target)
         }
+    }
+    
+    func isSelected(target: TargetingSpecifics) -> Bool {
+        return (self.selectedSpecifics?.firstIndex(of: target) != nil)
     }
 }

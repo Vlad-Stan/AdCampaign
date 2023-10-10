@@ -27,19 +27,15 @@ class FlashOnSelectionTableViewCell: UITableViewCell {
         let originalColor = contentView.backgroundColor ?? UIColor.clear
         let flashColor = UIColor.lightGray
 
-        // Create a CABasicAnimation to animate the background color
         let colorAnimation = CABasicAnimation(keyPath: "backgroundColor")
         colorAnimation.fromValue = originalColor.cgColor
         colorAnimation.toValue = flashColor.cgColor
-        colorAnimation.duration = 0.25  // Adjust the duration as needed
+        colorAnimation.duration = 0.1
         colorAnimation.autoreverses = true
-
         // Set the final background color
         contentView.backgroundColor = flashColor
-
         // Add the animation to the content view's layer
         contentView.layer.add(colorAnimation, forKey: "backgroundColorFlashAnimation")
-
         // Use UIView.animate to reset the background color after the animation completes
         DispatchQueue.main.asyncAfter(deadline: .now() + colorAnimation.duration) {
             UIView.animate(withDuration: colorAnimation.duration) {

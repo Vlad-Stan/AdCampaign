@@ -22,12 +22,13 @@ class TargetingTableViewCell: FlashOnSelectionTableViewCell {
         return "\(self)"
     }
     
-    func configureWith(specific: TargetingSpecifics) {
+    func configureWith(specific: TargetingSpecifics, isSelected: Bool = false) {
         self.targetingLabel?.text = specific.specific
         let strings = specific.platforms.map { element in
             "\(element)"
         }
         self.platformsLabel?.text = strings.joined(separator: "\n")
+        self.selectedImageView?.image = isSelected ? UIImage(systemName: "checkmark.circle") : nil
     }
 
 }

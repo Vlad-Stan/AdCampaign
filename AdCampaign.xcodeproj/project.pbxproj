@@ -21,6 +21,8 @@
 		9A2C76FA2ACB6C3500B1AEE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76F92ACB6C3500B1AEE8 /* TargetType.swift */; };
 		9A2C76FC2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */; };
 		9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */; };
+		9A4467A72AD5F29B00AD3FC1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */; };
+		9A4467AB2AD5F51C00AD3FC1 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */; };
 		9A46143A2ACDA69B002C6594 /* SEOCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4614392ACDA69B002C6594 /* SEOCampaign.swift */; };
 		9A5046362ACE0006001D6C21 /* Targeting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5046352ACE0006001D6C21 /* Targeting.plist */; };
 		9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */; };
@@ -47,6 +49,8 @@
 		9A2C76F92ACB6C3500B1AEE8 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMediaCampaign.swift; sourceTree = "<group>"; };
 		9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashOnSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
+		9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
 		9A4614392ACDA69B002C6594 /* SEOCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEOCampaign.swift; sourceTree = "<group>"; };
 		9A5046352ACE0006001D6C21 /* Targeting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Targeting.plist; sourceTree = "<group>"; };
 		9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSpecifics.swift; sourceTree = "<group>"; };
@@ -161,6 +165,8 @@
 				9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */,
 				9A09253A2AD566C50068F7BC /* TargetingTableViewCell.swift */,
 				9A09253E2AD593DC0068F7BC /* TargetingTableViewCell.xib */,
+				9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */,
+				9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */,
 				9A5046512AD1939A001D6C21 /* SpecificsViewController.swift */,
 			);
 			path = View;
@@ -244,6 +250,7 @@
 			files = (
 				9A2C76EB2ACB64AD00B1AEE8 /* LaunchScreen.storyboard in Resources */,
 				9A09253F2AD593DC0068F7BC /* TargetingTableViewCell.xib in Resources */,
+				9A4467AB2AD5F51C00AD3FC1 /* FooterView.xib in Resources */,
 				9A2C76E82ACB64AD00B1AEE8 /* Assets.xcassets in Resources */,
 				9A2C76F32ACB64EC00B1AEE8 /* Campaigns.plist in Resources */,
 				9A5046362ACE0006001D6C21 /* Targeting.plist in Resources */,
@@ -263,6 +270,7 @@
 				9A837B9A2ACBFF4C002F2B3C /* DataParser.swift in Sources */,
 				9A2C76FC2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift in Sources */,
 				9A2C76E12ACB64AC00B1AEE8 /* SceneDelegate.swift in Sources */,
+				9A4467A72AD5F29B00AD3FC1 /* FooterView.swift in Sources */,
 				9A2C76F62ACB668100B1AEE8 /* SocialMediaCampaign.swift in Sources */,
 				9A837B9C2ACC0139002F2B3C /* DataProvider.swift in Sources */,
 				9A09253C2AD566C50068F7BC /* TargetingTableViewCell.swift in Sources */,

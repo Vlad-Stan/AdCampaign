@@ -18,6 +18,7 @@ extension UICollectionView {
     }
 }
 
+// MARK: - Animations
 extension UIView {
     func animateBackgroundColorChange(to targetColor: UIColor, duration: TimeInterval = 0.8) {
         let originalColor = self.backgroundColor ?? UIColor.clear
