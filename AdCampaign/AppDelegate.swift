@@ -12,15 +12,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
-        if let url1 = Bundle.main.url(forResource: "Targeting", withExtension: "plist"),
-           let dataDict = DataProvider(dataURL: url1).getLatestData() as? Dictionary<String, String>
-        {
-            let specifics = DataParser.parseTargetingSpecifics(dataDictionary: dataDict)
-            print(specifics)
-            
-        } else {
-            print("Cannot load data")
-        }
+//        if let url1 = Bundle.main.url(forResource: "Targeting", withExtension: "plist"),
+//           let dataDict = DataProvider(dataURL: url1).getLatestData() as? Dictionary<String, String>
+//        {
+//            let specifics = DataParser.parseTargetingSpecifics(dataDictionary: dataDict)
+//            print(specifics)
+//            
+//        } else {
+//            print("Cannot load data")
+//        }
         
 //        if let dataURL = Bundle.main.url(forResource: "Campaigns", withExtension: "plist") {
 //            let dataProvider = DataProvider(dataURL: dataURL)

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9A0925392AD3F6930068F7BC /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0925382AD3F6930068F7BC /* UIKitExtensions.swift */; };
+		9A09253C2AD566C50068F7BC /* TargetingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A09253A2AD566C50068F7BC /* TargetingTableViewCell.swift */; };
+		9A09253F2AD593DC0068F7BC /* TargetingTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A09253E2AD593DC0068F7BC /* TargetingTableViewCell.xib */; };
+		9A0925442AD5C2320068F7BC /* TargetingSpecificViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A0925432AD5C2320068F7BC /* TargetingSpecificViewModel.swift */; };
 		9A2C76DF2ACB64AC00B1AEE8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76DE2ACB64AC00B1AEE8 /* AppDelegate.swift */; };
 		9A2C76E12ACB64AC00B1AEE8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76E02ACB64AC00B1AEE8 /* SceneDelegate.swift */; };
 		9A2C76E62ACB64AC00B1AEE8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A2C76E42ACB64AC00B1AEE8 /* Main.storyboard */; };
@@ -16,11 +20,10 @@
 		9A2C76F62ACB668100B1AEE8 /* SocialMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76F52ACB668100B1AEE8 /* SocialMediaCampaign.swift */; };
 		9A2C76FA2ACB6C3500B1AEE8 /* TargetType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76F92ACB6C3500B1AEE8 /* TargetType.swift */; };
 		9A2C76FC2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */; };
+		9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */; };
 		9A46143A2ACDA69B002C6594 /* SEOCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4614392ACDA69B002C6594 /* SEOCampaign.swift */; };
 		9A5046362ACE0006001D6C21 /* Targeting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5046352ACE0006001D6C21 /* Targeting.plist */; };
-		9A50463A2ACEC2CC001D6C21 /* TargetingSpecific.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046392ACEC2CC001D6C21 /* TargetingSpecific.swift */; };
-		9A5046452AD18E26001D6C21 /* TargetingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046432AD18E26001D6C21 /* TargetingCollectionViewCell.swift */; };
-		9A5046462AD18E26001D6C21 /* TargetingCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A5046442AD18E26001D6C21 /* TargetingCollectionViewCell.xib */; };
+		9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */; };
 		9A5046522AD1939A001D6C21 /* SpecificsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046512AD1939A001D6C21 /* SpecificsViewController.swift */; };
 		9A837B962ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A837B952ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift */; };
 		9A837B9A2ACBFF4C002F2B3C /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A837B992ACBFF4C002F2B3C /* DataParser.swift */; };
@@ -28,6 +31,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9A0925382AD3F6930068F7BC /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
+		9A09253A2AD566C50068F7BC /* TargetingTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingTableViewCell.swift; sourceTree = "<group>"; };
+		9A09253E2AD593DC0068F7BC /* TargetingTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetingTableViewCell.xib; sourceTree = "<group>"; };
+		9A0925432AD5C2320068F7BC /* TargetingSpecificViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSpecificViewModel.swift; sourceTree = "<group>"; };
 		9A2C76DB2ACB64AC00B1AEE8 /* AdCampaign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AdCampaign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A2C76DE2ACB64AC00B1AEE8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A2C76E02ACB64AC00B1AEE8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,11 +46,10 @@
 		9A2C76F52ACB668100B1AEE8 /* SocialMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SocialMediaCampaign.swift; sourceTree = "<group>"; };
 		9A2C76F92ACB6C3500B1AEE8 /* TargetType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetType.swift; sourceTree = "<group>"; };
 		9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMediaCampaign.swift; sourceTree = "<group>"; };
+		9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashOnSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		9A4614392ACDA69B002C6594 /* SEOCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEOCampaign.swift; sourceTree = "<group>"; };
 		9A5046352ACE0006001D6C21 /* Targeting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Targeting.plist; sourceTree = "<group>"; };
-		9A5046392ACEC2CC001D6C21 /* TargetingSpecific.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSpecific.swift; sourceTree = "<group>"; };
-		9A5046432AD18E26001D6C21 /* TargetingCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingCollectionViewCell.swift; sourceTree = "<group>"; };
-		9A5046442AD18E26001D6C21 /* TargetingCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TargetingCollectionViewCell.xib; sourceTree = "<group>"; };
+		9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSpecifics.swift; sourceTree = "<group>"; };
 		9A5046512AD1939A001D6C21 /* SpecificsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecificsViewController.swift; sourceTree = "<group>"; };
 		9A837B952ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedInMediaCampaign.swift; sourceTree = "<group>"; };
 		9A837B992ACBFF4C002F2B3C /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
@@ -61,6 +67,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9A0925372AD3F67D0068F7BC /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				9A0925382AD3F6930068F7BC /* UIKitExtensions.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		9A0925422AD5C20F0068F7BC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A0925432AD5C2320068F7BC /* TargetingSpecificViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 		9A2C76D22ACB64AC00B1AEE8 = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +106,7 @@
 				9A2C76E02ACB64AC00B1AEE8 /* SceneDelegate.swift */,
 				9A5046372ACEC2A7001D6C21 /* Targeting */,
 				9A837B972ACBFEFF002F2B3C /* Campaign */,
+				9A0925372AD3F67D0068F7BC /* Utils */,
 				9A5046342ACDFFCF001D6C21 /* Resources */,
 				9A2C76E42ACB64AC00B1AEE8 /* Main.storyboard */,
 				9A2C76E72ACB64AD00B1AEE8 /* Assets.xcassets */,
@@ -108,8 +131,8 @@
 		9A5046342ACDFFCF001D6C21 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				9A2C76F22ACB64EC00B1AEE8 /* Campaigns.plist */,
 				9A5046352ACE0006001D6C21 /* Targeting.plist */,
+				9A2C76F22ACB64EC00B1AEE8 /* Campaigns.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -117,8 +140,9 @@
 		9A5046372ACEC2A7001D6C21 /* Targeting */ = {
 			isa = PBXGroup;
 			children = (
-				9A50463D2AD18724001D6C21 /* View */,
 				9A5046382ACEC2B7001D6C21 /* Model */,
+				9A0925422AD5C20F0068F7BC /* ViewModel */,
+				9A50463D2AD18724001D6C21 /* View */,
 			);
 			path = Targeting;
 			sourceTree = "<group>";
@@ -126,7 +150,7 @@
 		9A5046382ACEC2B7001D6C21 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				9A5046392ACEC2CC001D6C21 /* TargetingSpecific.swift */,
+				9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -134,9 +158,10 @@
 		9A50463D2AD18724001D6C21 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				9A5046432AD18E26001D6C21 /* TargetingCollectionViewCell.swift */,
+				9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */,
+				9A09253A2AD566C50068F7BC /* TargetingTableViewCell.swift */,
+				9A09253E2AD593DC0068F7BC /* TargetingTableViewCell.xib */,
 				9A5046512AD1939A001D6C21 /* SpecificsViewController.swift */,
-				9A5046442AD18E26001D6C21 /* TargetingCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -218,8 +243,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A2C76EB2ACB64AD00B1AEE8 /* LaunchScreen.storyboard in Resources */,
+				9A09253F2AD593DC0068F7BC /* TargetingTableViewCell.xib in Resources */,
 				9A2C76E82ACB64AD00B1AEE8 /* Assets.xcassets in Resources */,
-				9A5046462AD18E26001D6C21 /* TargetingCollectionViewCell.xib in Resources */,
 				9A2C76F32ACB64EC00B1AEE8 /* Campaigns.plist in Resources */,
 				9A5046362ACE0006001D6C21 /* Targeting.plist in Resources */,
 				9A2C76E62ACB64AC00B1AEE8 /* Main.storyboard in Resources */,
@@ -233,18 +258,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A0925442AD5C2320068F7BC /* TargetingSpecificViewModel.swift in Sources */,
 				9A2C76DF2ACB64AC00B1AEE8 /* AppDelegate.swift in Sources */,
 				9A837B9A2ACBFF4C002F2B3C /* DataParser.swift in Sources */,
 				9A2C76FC2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift in Sources */,
 				9A2C76E12ACB64AC00B1AEE8 /* SceneDelegate.swift in Sources */,
-				9A5046452AD18E26001D6C21 /* TargetingCollectionViewCell.swift in Sources */,
 				9A2C76F62ACB668100B1AEE8 /* SocialMediaCampaign.swift in Sources */,
 				9A837B9C2ACC0139002F2B3C /* DataProvider.swift in Sources */,
+				9A09253C2AD566C50068F7BC /* TargetingTableViewCell.swift in Sources */,
 				9A46143A2ACDA69B002C6594 /* SEOCampaign.swift in Sources */,
+				9A0925392AD3F6930068F7BC /* UIKitExtensions.swift in Sources */,
 				9A5046522AD1939A001D6C21 /* SpecificsViewController.swift in Sources */,
 				9A2C76FA2ACB6C3500B1AEE8 /* TargetType.swift in Sources */,
-				9A50463A2ACEC2CC001D6C21 /* TargetingSpecific.swift in Sources */,
+				9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */,
 				9A837B962ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift in Sources */,
+				9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
