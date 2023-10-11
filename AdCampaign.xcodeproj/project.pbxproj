@@ -23,6 +23,10 @@
 		9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */; };
 		9A4467A72AD5F29B00AD3FC1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */; };
 		9A4467AB2AD5F51C00AD3FC1 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */; };
+		9A4467AF2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467AD2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift */; };
+		9A4467B02AD68D2F00AD3FC1 /* SelectCampaignViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4467AE2AD68D2F00AD3FC1 /* SelectCampaignViewController.xib */; };
+		9A4467B32AD68D5E00AD3FC1 /* CampaignSelectionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467B22AD68D5E00AD3FC1 /* CampaignSelectionViewModel.swift */; };
+		9A4467B62AD6993400AD3FC1 /* CampaignTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467B52AD6993400AD3FC1 /* CampaignTableViewCell.swift */; };
 		9A46143A2ACDA69B002C6594 /* SEOCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4614392ACDA69B002C6594 /* SEOCampaign.swift */; };
 		9A5046362ACE0006001D6C21 /* Targeting.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A5046352ACE0006001D6C21 /* Targeting.plist */; };
 		9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */; };
@@ -51,6 +55,10 @@
 		9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashOnSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
+		9A4467AD2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectCampaignViewController.swift; sourceTree = "<group>"; };
+		9A4467AE2AD68D2F00AD3FC1 /* SelectCampaignViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectCampaignViewController.xib; sourceTree = "<group>"; };
+		9A4467B22AD68D5E00AD3FC1 /* CampaignSelectionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignSelectionViewModel.swift; sourceTree = "<group>"; };
+		9A4467B52AD6993400AD3FC1 /* CampaignTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignTableViewCell.swift; sourceTree = "<group>"; };
 		9A4614392ACDA69B002C6594 /* SEOCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SEOCampaign.swift; sourceTree = "<group>"; };
 		9A5046352ACE0006001D6C21 /* Targeting.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Targeting.plist; sourceTree = "<group>"; };
 		9A5046392ACEC2CC001D6C21 /* TargetingSpecifics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetingSpecifics.swift; sourceTree = "<group>"; };
@@ -109,6 +117,7 @@
 				9A2C76DE2ACB64AC00B1AEE8 /* AppDelegate.swift */,
 				9A2C76E02ACB64AC00B1AEE8 /* SceneDelegate.swift */,
 				9A5046372ACEC2A7001D6C21 /* Targeting */,
+				9A4467AC2AD68CB600AD3FC1 /* SelectCampaign */,
 				9A837B972ACBFEFF002F2B3C /* Campaign */,
 				9A0925372AD3F67D0068F7BC /* Utils */,
 				9A5046342ACDFFCF001D6C21 /* Resources */,
@@ -130,6 +139,33 @@
 				9A837B952ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		9A4467AC2AD68CB600AD3FC1 /* SelectCampaign */ = {
+			isa = PBXGroup;
+			children = (
+				9A4467B42AD68DFA00AD3FC1 /* ViewModel */,
+				9A4467B12AD68D3300AD3FC1 /* View */,
+			);
+			path = SelectCampaign;
+			sourceTree = "<group>";
+		};
+		9A4467B12AD68D3300AD3FC1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A4467AD2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift */,
+				9A4467AE2AD68D2F00AD3FC1 /* SelectCampaignViewController.xib */,
+				9A4467B52AD6993400AD3FC1 /* CampaignTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9A4467B42AD68DFA00AD3FC1 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				9A4467B22AD68D5E00AD3FC1 /* CampaignSelectionViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		9A5046342ACDFFCF001D6C21 /* Resources */ = {
@@ -248,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A4467B02AD68D2F00AD3FC1 /* SelectCampaignViewController.xib in Resources */,
 				9A2C76EB2ACB64AD00B1AEE8 /* LaunchScreen.storyboard in Resources */,
 				9A09253F2AD593DC0068F7BC /* TargetingTableViewCell.xib in Resources */,
 				9A4467AB2AD5F51C00AD3FC1 /* FooterView.xib in Resources */,
@@ -275,11 +312,14 @@
 				9A837B9C2ACC0139002F2B3C /* DataProvider.swift in Sources */,
 				9A09253C2AD566C50068F7BC /* TargetingTableViewCell.swift in Sources */,
 				9A46143A2ACDA69B002C6594 /* SEOCampaign.swift in Sources */,
+				9A4467B32AD68D5E00AD3FC1 /* CampaignSelectionViewModel.swift in Sources */,
 				9A0925392AD3F6930068F7BC /* UIKitExtensions.swift in Sources */,
 				9A5046522AD1939A001D6C21 /* SpecificsViewController.swift in Sources */,
 				9A2C76FA2ACB6C3500B1AEE8 /* TargetType.swift in Sources */,
+				9A4467AF2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift in Sources */,
 				9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */,
 				9A837B962ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift in Sources */,
+				9A4467B62AD6993400AD3FC1 /* CampaignTableViewCell.swift in Sources */,
 				9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

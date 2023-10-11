@@ -8,12 +8,18 @@
 import Foundation
 import UIKit
 
+extension UITableView {
+    func register<T: UITableViewCell>(tableViewCellClass: T) -> Void {
+        self.register(T.self, forCellReuseIdentifier: "\(T.self)")
+    }
+}
+
 extension UICollectionView {
-    func dequeue<T: UICollectionViewCell>(cellForItemAt indexPath: IndexPath) -> T {
+    func dequeue<T: UICollectionViewCell>(colletionViewCellForItemAt indexPath: IndexPath) -> T {
         return self.dequeueReusableCell(withReuseIdentifier: "\(T.self)", for: indexPath) as! T
     }
     
-    func register<T: UICollectionViewCell>(cellClass: T) -> Void {
+    func register<T: UICollectionViewCell>(collectionViewCellClass: T) -> Void {
         self.register(T.self, forCellWithReuseIdentifier: "\(T.self)")
     }
 }

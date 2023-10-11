@@ -93,6 +93,9 @@ extension SpecificsViewController: ActionCallback {
         for specific in selectedSpecifics {
             combinedPlatforms.append(contentsOf: specific.platforms)
         }
-        let distinctPlatforms = Set<TargetType>(combinedPlatforms)
+        let distinctPlatforms = Array<TargetType>(Set<TargetType>(combinedPlatforms))
+        let campaignSelectionViewModel = CampaignSelectionViewModel(dataSource: distinctPlatforms)
+        let nextVC = SelectCampaignViewController(viewModel: campaignSelectionViewModel)
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
 }

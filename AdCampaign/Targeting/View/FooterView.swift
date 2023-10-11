@@ -14,7 +14,6 @@ protocol ActionCallback: AnyObject {
 class FooterView: UIView {
     
     @IBOutlet var actionButton: UIButton?
-    @IBOutlet var descriptionLabel: UILabel?
     weak var actionButtonDelegate: ActionCallback?
 
     /*
