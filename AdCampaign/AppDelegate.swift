@@ -11,56 +11,8 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        
-//        if let url1 = Bundle.main.url(forResource: "Targeting", withExtension: "plist"),
-//           let dataDict = DataProvider(dataURL: url1).getLatestData() as? Dictionary<String, String>
-//        {
-//            let specifics = DataParser.parseTargetingSpecifics(dataDictionary: dataDict)
-//            print(specifics)
-//            
-//        } else {
-//            print("Cannot load data")
-//        }
-        
-//        if let dataURL = Bundle.main.url(forResource: "Campaigns", withExtension: "plist") {
-//            let dataProvider = DataProvider(dataURL: dataURL)
-//            let dataDict = dataProvider.getLatestData()
-//            DataParser.parse(dataDict: dataDict) { parsedData in
-//                for addCampaign in parsedData {
-//                    if let facebook = addCampaign as? FacebookMediaCampaign {
-//                        print("=================")
-//                        print(facebook.targetType)
-//                        let pricingOptions = facebook.availablePricingOptions()
-//                        let value = pricingOptions.first ?? 0
-//                        print("Showing data for pricing value: \(value)")
-//                        print(facebook.listings(for: value))
-//                        print(facebook.completeFeatureSet())
-//                        print(facebook.featureSet(for: value))
-//                        print(facebook.optimizations(for: value))
-//                    }
-//                    if let linkedin = addCampaign as? LinkedInMediaCampaign {
-//                        print("=================")
-//                        print(linkedin.targetType)
-//                    }
-//                    if let SEO = addCampaign as? SEOCampaign {
-//                        print("=================")
-//                        print(addCampaign.targetType)
-//                        let pricingOptions = SEO.availablePricingOptions()
-//                        let value = pricingOptions.first ?? 0
-//                        print("Showing data for pricing value: \(value)")
-//                        print(SEO.featureSet(for: value))
-//                    }
-//                }
-//            }
-//        }
-             
-        
         return true
     }
-    
-
-    
-
 
     // MARK: UISceneSession Lifecycle
 

@@ -8,32 +8,26 @@
 import Foundation
 
 class SEOCampaign: SocialMediaCampaign {
-    var pricingData: Dictionary<String, Any>? {
-        return self.dataDict["PricingOptions"] as? Dictionary<String, Any>
+    
+// MARK: - ListingOptions override
+    override func listings(for pricingValue: Int) -> String? {
+        return nil
     }
-}
-
-extension SEOCampaign: PricingOptions {
-    func availablePricingOptions() -> [Int] {
-        guard let pricingData = self.pricingData else {
-            return []
-        }
-        return pricingData.keys.compactMap { stringKeyValue in
-            Int(stringKeyValue)
-        }
+    
+// MARK: - OptimizationOptions override
+    override func optimizations(for princingValue: Int) -> String? {
+        return nil
     }
-}
 
-extension SEOCampaign: FeaturesSet {
-
-    func completeFeatureSet() -> Dictionary<String, String>? {
+// MARK: - Feature Set override
+    override func completeFeatureSet() -> Dictionary<String, String>? {
         guard let fullFeatureSet = self.dataDict["Features"] as? Dictionary<String, String> else {
             return nil
         }
         return fullFeatureSet
     }
     
-    func featureSet(for pricingValue: Int) -> [String]? {
+    override func featureSet(for pricingValue: Int) -> [String]? {
         guard let validPricingData = self.pricingData,
               let dataForValue = validPricingData[String(pricingValue)] as? Dictionary<String, Any>,
               let featureFlags = dataForValue["FeatureFlag"] as? Array<String>,
@@ -50,7 +44,4 @@ extension SEOCampaign: FeaturesSet {
         }
         return features
     }
-    
-    
 }
-

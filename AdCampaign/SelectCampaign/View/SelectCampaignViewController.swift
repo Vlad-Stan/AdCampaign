@@ -53,6 +53,15 @@ extension SelectCampaignViewController: UITableViewDataSource {
 extension SelectCampaignViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let selectedItem = self.viewModel.availablePlatforms()[indexPath.row]
-        print("Did select item \(selectedItem)")
+        
+        guard let dataURL = Bundle.main.url(forResource: "Campaigns", withExtension: "plist") else {
+            print("Error - Cannot load campaigns")
+            return
+        }
+        let dataProvider = DataProvider(dataURL: dataURL)
+        let viewModel = CampaignDetailsViewModel(dataProvider: dataProvider)
+        viewModel.selectedCampaign = selectedItem
+        let nextVC = CampaignDetailsViewController(viewModel: viewModel)
+        self.navigationController?.pushViewController(nextVC, animated: true)
     }
 }

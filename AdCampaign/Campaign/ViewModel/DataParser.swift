@@ -25,7 +25,6 @@ class DataParser {
     }
 }
 
-
 // MARK: - Dynamic Types Object Creation
 extension DataParser {
     
