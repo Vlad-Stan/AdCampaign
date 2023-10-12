@@ -27,7 +27,8 @@ class SelectCampaignViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         self.title = "Platforms"
-        self.tableView?.register(CampaignTableViewCell.self, forCellReuseIdentifier: "\(CampaignTableViewCell.self)")
+        self.tableView?.register(CampaignTableViewCell.self,
+                                 forCellReuseIdentifier: "\(CampaignTableViewCell.self)")
         self.topTitleLabel?.text = self.viewModel.dataSourceDescription()
     }
 }

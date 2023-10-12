@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import MessageUI
 
 class CampaignDetailsViewController: UIViewController {
 
@@ -79,4 +80,39 @@ extension CampaignDetailsViewController: UITableViewDataSource {
 
         return cell
     }
+}
+
+extension CampaignDetailsViewController: UITableViewDelegate {
+    func tableView(_ tableView: UITableView, accessoryButtonTappedForRowWith indexPath: IndexPath) {
+        self.sendEmail()
+    }
+}
+
+extension CampaignDetailsViewController: MFMailComposeViewControllerDelegate {
+    func sendEmail() {
+        // Check if the device can send email
+        if MFMailComposeViewController.canSendMail() {
+            let mailComposeVC = MFMailComposeViewController()
+            mailComposeVC.mailComposeDelegate = self
+            
+            // Set the email subject, recipient, and message body
+            mailComposeVC.setSubject("Campaign details")
+            mailComposeVC.setToRecipients(["bogus@bogus.com"])
+            mailComposeVC.setMessageBody("", isHTML: false)
+            
+            // Present the email composer view controller
+            self.present(mailComposeVC, animated: true, completion: nil)
+        } else {
+            // The device can't send email, handle this case
+            let alert = UIAlertController(title: "Email Not Available", message: "Your device is not configured to send email.", preferredStyle: .alert)
+            alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+    }
+    
+//    func mailComposeController(_ controller: MFMailComposeViewController, 
+//                               didFinishWith result: MFMailComposeResult,
+//                               error: Error?) {
+//        
+//    }
 }

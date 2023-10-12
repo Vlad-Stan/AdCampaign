@@ -43,6 +43,7 @@ class SocialMediaCampaign: Initable, PricingOptions, ListingOptions, FeaturesSet
         self.dataDict = dataDict
         self.loadPricingOptions()
     }
+
     
     private func loadPricingOptions() {
         guard let pricingData = self.pricingData else {
