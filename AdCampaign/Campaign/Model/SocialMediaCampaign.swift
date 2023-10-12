@@ -118,6 +118,12 @@ extension SocialMediaCampaign {
             return LinkedInMediaCampaign.self
         case .SEO:
             return SEOCampaign.self
+        case .Twitter:
+            return TwitterMediaCampaign.self
+        case .Instagram:
+            return InstagramMediaCampaign.self
+        case .GoogleAdWords:
+            return GoogleAdWordsMediaCampaign.self
         }
     }
 }

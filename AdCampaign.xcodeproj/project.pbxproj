@@ -22,6 +22,9 @@
 		9A2C76FC2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */; };
 		9A2E2FBE2AD7C26700382B48 /* CampaignDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E2FBC2AD7C26700382B48 /* CampaignDetailsTableViewCell.swift */; };
 		9A2E2FBF2AD7C26700382B48 /* CampaignDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A2E2FBD2AD7C26700382B48 /* CampaignDetailsTableViewCell.xib */; };
+		9A2E2FC12AD7DEFC00382B48 /* TwitterMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E2FC02AD7DEFC00382B48 /* TwitterMediaCampaign.swift */; };
+		9A2E2FC32AD7E14500382B48 /* InstagramMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E2FC22AD7E14500382B48 /* InstagramMediaCampaign.swift */; };
+		9A2E2FC52AD7E76300382B48 /* GoogleAdWordsMediaCampaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A2E2FC42AD7E76300382B48 /* GoogleAdWordsMediaCampaign.swift */; };
 		9A4467A52AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */; };
 		9A4467A72AD5F29B00AD3FC1 /* FooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */; };
 		9A4467AB2AD5F51C00AD3FC1 /* FooterView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */; };
@@ -60,6 +63,9 @@
 		9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacebookMediaCampaign.swift; sourceTree = "<group>"; };
 		9A2E2FBC2AD7C26700382B48 /* CampaignDetailsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignDetailsTableViewCell.swift; sourceTree = "<group>"; };
 		9A2E2FBD2AD7C26700382B48 /* CampaignDetailsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CampaignDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		9A2E2FC02AD7DEFC00382B48 /* TwitterMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterMediaCampaign.swift; sourceTree = "<group>"; };
+		9A2E2FC22AD7E14500382B48 /* InstagramMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstagramMediaCampaign.swift; sourceTree = "<group>"; };
+		9A2E2FC42AD7E76300382B48 /* GoogleAdWordsMediaCampaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAdWordsMediaCampaign.swift; sourceTree = "<group>"; };
 		9A4467A42AD5E2D400AD3FC1 /* FlashOnSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashOnSelectionTableViewCell.swift; sourceTree = "<group>"; };
 		9A4467A62AD5F29B00AD3FC1 /* FooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FooterView.swift; sourceTree = "<group>"; };
 		9A4467AA2AD5F51C00AD3FC1 /* FooterView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FooterView.xib; sourceTree = "<group>"; };
@@ -150,6 +156,9 @@
 				9A2C76FB2ACB6EA600B1AEE8 /* FacebookMediaCampaign.swift */,
 				9A4614392ACDA69B002C6594 /* SEOCampaign.swift */,
 				9A837B952ACBF4DF002F2B3C /* LinkedInMediaCampaign.swift */,
+				9A2E2FC02AD7DEFC00382B48 /* TwitterMediaCampaign.swift */,
+				9A2E2FC22AD7E14500382B48 /* InstagramMediaCampaign.swift */,
+				9A2E2FC42AD7E76300382B48 /* GoogleAdWordsMediaCampaign.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -346,6 +355,9 @@
 				9A0925392AD3F6930068F7BC /* UIKitExtensions.swift in Sources */,
 				9A5046522AD1939A001D6C21 /* SpecificsViewController.swift in Sources */,
 				9A2C76FA2ACB6C3500B1AEE8 /* TargetType.swift in Sources */,
+				9A2E2FC52AD7E76300382B48 /* GoogleAdWordsMediaCampaign.swift in Sources */,
+				9A2E2FC12AD7DEFC00382B48 /* TwitterMediaCampaign.swift in Sources */,
+				9A2E2FC32AD7E14500382B48 /* InstagramMediaCampaign.swift in Sources */,
 				9A4467AF2AD68D2F00AD3FC1 /* SelectCampaignViewController.swift in Sources */,
 				9A2E2FBE2AD7C26700382B48 /* CampaignDetailsTableViewCell.swift in Sources */,
 				9A50463A2ACEC2CC001D6C21 /* TargetingSpecifics.swift in Sources */,

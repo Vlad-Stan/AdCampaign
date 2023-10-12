@@ -17,5 +17,8 @@ struct TargetIdentifier: Equatable, ExpressibleByStringLiteral {
 enum TargetType: TargetIdentifier {
     case Facebook = "Facebook"
     case SEO = "SEO"
-    case LinkedIn = "LinkedIn"
+    case LinkedIn = "Linkedin"
+    case Twitter = "Twitter"
+    case Instagram = "Instagram"
+    case GoogleAdWords = "Google AdWords"
 }

@@ -1,29 +1,20 @@
 //
-//  LinkenInMediaCampaign.swift
+//  GoogleAdWordsMediaCampaign.swift
 //  AdCampaign
 //
-//  Created by Vlad Stan on 03.10.2023.
+//  Created by Vlad Stan on 12.10.2023.
 //
 
 import Foundation
 
-class LinkedInMediaCampaign: SocialMediaCampaign {
+class GoogleAdWordsMediaCampaign: SocialMediaCampaign {
+    
 // MARK: - ListingOptions override
     override func listings(for pricingValue: Int) -> String? {
         return nil
     }
-    
-// MARK: - OptimizationOptions override
-    override func optimizations(for princingValue: Int) -> String? {
-        guard let validPricingData = self.pricingData,
-              let dataForValue = validPricingData[String(princingValue)] as? Dictionary<String, Any>,
-              let optimzation = dataForValue["Optimizations"] as? String else {
-            return nil
-        }
-        return optimzation
-    }
-    
-    // MARK: - Feature Set override
+
+// MARK: - Feature Set override
     override func completeFeatureSet() -> Dictionary<String, String>? {
         guard let fullFeatureSet = self.dataDict["Features"] as? Dictionary<String, String> else {
             return nil
@@ -48,4 +39,14 @@ class LinkedInMediaCampaign: SocialMediaCampaign {
         }
         return features
     }
+
+    // MARK: - OptimizationOptions override
+        override func optimizations(for princingValue: Int) -> String? {
+            guard let validPricingData = self.pricingData,
+                  let dataForValue = validPricingData[String(princingValue)] as? Dictionary<String, Any>,
+                  let optimzation = dataForValue["Optimizations"] as? String else {
+                return nil
+            }
+            return optimzation
+        }
 }

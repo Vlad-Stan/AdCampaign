@@ -186,5 +186,287 @@
 			</dict>
 		</dict>
 	</dict>
+	<key>Linkedin</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Campaign setup</string>
+			<key>2</key>
+			<string>Admin and optimising</string>
+			<key>3</key>
+			<string>Email support</string>
+			<key>4</key>
+			<string>Monitoring</string>
+			<key>5</key>
+			<string>Monthly reports</string>
+			<key>6</key>
+			<string>Phone support</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>60</key>
+			<dict>
+				<key>Listings</key>
+				<string>1-2</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+				</array>
+			</dict>
+			<key>90</key>
+			<dict>
+				<key>Listings</key>
+				<string>1-3 listings</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>5</string>
+				</array>
+			</dict>
+			<key>180</key>
+			<dict>
+				<key>Listings</key>
+				<string>8-10 listinngs</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+				</array>
+			</dict>
+			<key>150</key>
+			<dict>
+				<key>Listings</key>
+				<string>5-8</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Twitter</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Campaign setup</string>
+			<key>2</key>
+			<string>Campaign auctioning</string>
+			<key>3</key>
+			<string>Targeted tweets</string>
+			<key>4</key>
+			<string>Email support</string>
+			<key>5</key>
+			<string>Admin and optimising</string>
+			<key>6</key>
+			<string>Monthly reports</string>
+			<key>7</key>
+			<string>Phone support</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>170</key>
+			<dict>
+				<key>Listings</key>
+				<string>10-15</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+				</array>
+			</dict>
+			<key>250</key>
+			<dict>
+				<key>Listings</key>
+				<string>15-20 listings</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+					<string>7</string>
+				</array>
+			</dict>
+			<key>129</key>
+			<dict>
+				<key>Listings</key>
+				<string>5-10</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+				</array>
+			</dict>
+			<key>80</key>
+			<dict>
+				<key>Listings</key>
+				<string>1-5</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Instagram</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Campaign setup</string>
+			<key>2</key>
+			<string>Campaign testing</string>
+			<key>3</key>
+			<string>Campaign analysis</string>
+			<key>4</key>
+			<string>Monitoring</string>
+			<key>5</key>
+			<string>Email support</string>
+			<key>6</key>
+			<string>Phone support</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>180</key>
+			<dict>
+				<key>Listings</key>
+				<string>5-8 Listings</string>
+				<key>Optimizations</key>
+				<string>4 optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>5</string>
+				</array>
+			</dict>
+			<key>270</key>
+			<dict>
+				<key>Listings</key>
+				<string>10-12 listings</string>
+				<key>Optimizations</key>
+				<string>8 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+				</array>
+			</dict>
+			<key>130</key>
+			<dict>
+				<key>Listings</key>
+				<string>1-4 listings</string>
+				<key>Optimizations</key>
+				<string>2 Optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>5</string>
+				</array>
+			</dict>
+			<key>80</key>
+			<dict>
+				<key>Listings</key>
+				<string>1 Listing</string>
+				<key>Optimizations</key>
+				<string>0</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>5</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
+	<key>Google AdWords</key>
+	<dict>
+		<key>Features</key>
+		<dict>
+			<key>1</key>
+			<string>Campaign setup</string>
+			<key>2</key>
+			<string>Content Creation</string>
+			<key>3</key>
+			<string>Admin and monitoring</string>
+			<key>4</key>
+			<string>Monthly reports</string>
+			<key>5</key>
+			<string>Email support</string>
+			<key>6</key>
+			<string>Phone support</string>
+		</dict>
+		<key>PricingOptions</key>
+		<dict>
+			<key>150</key>
+			<dict>
+				<key>Optimizations</key>
+				<string>3 optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>5</string>
+				</array>
+			</dict>
+			<key>230</key>
+			<dict>
+				<key>Optimizations</key>
+				<string>5 optimizations</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>3</string>
+					<string>4</string>
+					<string>5</string>
+					<string>6</string>
+				</array>
+			</dict>
+			<key>90</key>
+			<dict>
+				<key>Optimizations</key>
+				<string>1 optimization</string>
+				<key>FeatureFlag</key>
+				<array>
+					<string>1</string>
+					<string>2</string>
+					<string>5</string>
+				</array>
+			</dict>
+		</dict>
+	</dict>
 </dict>
 </plist>

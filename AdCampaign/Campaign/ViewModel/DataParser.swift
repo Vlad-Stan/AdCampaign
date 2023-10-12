@@ -69,11 +69,12 @@ extension DataParser {
         let componets = stringValue.components(separatedBy: separator)
         var result: [TargetType] = []
         for campaignIdentifier in componets {
-            let campaingIdentfier = TargetIdentifier(stringLiteral: campaignIdentifier )
-            if let campaign = TargetType(rawValue: campaingIdentfier) {
+            let trimmedID = campaignIdentifier.trimmingCharacters(in: .whitespacesAndNewlines)
+            let targetID = TargetIdentifier(stringLiteral: trimmedID )
+            if let campaign = TargetType(rawValue: targetID) {
                 result.append(campaign)
             } else {
-//                print("Invalid Campaign Identifier: [\(campaignIdentifier)]. Define a new type in TargetType.swift")
+                print("Invalid Campaign Identifier: [\(campaignIdentifier)]. Define a new type in TargetType.swift")
             }
         }
         return result.count > 0 ? result : nil
